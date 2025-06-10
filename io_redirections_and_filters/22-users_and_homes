@@ -1,2 +1,2 @@
 #!/bin/bash
-sort user/home /etc/passwd | grep username
+cut -f (user/root) | sort username
