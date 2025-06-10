@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -r search . "^d" | wc -l
+grep "^d" * | wc -l
