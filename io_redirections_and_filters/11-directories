@@ -1,2 +1,2 @@
 #!/bin/bash
-cd ~ ls . | wc -l
+cd ~ ls . wc -l
