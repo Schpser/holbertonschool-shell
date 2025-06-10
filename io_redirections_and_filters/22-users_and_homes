@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f (user/root) | sort username
+cut -d':' -f1,6 etc/passwd | sort
