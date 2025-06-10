@@ -1,2 +1,2 @@
 #!/bin/bash
-tr a>c z>e
+tr 'A' 'C' | tr 'Z' 'E'
